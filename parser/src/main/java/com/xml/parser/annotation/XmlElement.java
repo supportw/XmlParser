@@ -1,4 +1,4 @@
-package com.xml.paser.annotation;
+package com.xml.parser.annotation;
 
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;

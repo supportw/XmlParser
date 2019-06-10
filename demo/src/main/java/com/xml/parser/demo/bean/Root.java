@@ -1,8 +1,8 @@
-package com.xml.paser.demo.bean;
+package com.xml.parser.demo.bean;
 
-import com.xml.paser.annotation.XmlElements;
-import com.xml.paser.annotation.XmlRootElement;
-import com.xml.paser.annotation.XmlText;
+import com.xml.parser.annotation.XmlElements;
+import com.xml.parser.annotation.XmlRootElement;
+import com.xml.parser.annotation.XmlText;
 
 import java.util.List;
 

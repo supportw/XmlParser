@@ -1,6 +1,6 @@
-package com.xml.paser.demo.bean;
+package com.xml.parser.demo.bean;
 
-import com.xml.paser.annotation.XmlText;
+import com.xml.parser.annotation.XmlText;
 
 public class Category {
     @XmlText

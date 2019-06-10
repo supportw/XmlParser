@@ -1,4 +1,4 @@
-package com.xml.paser.annotation;
+package com.xml.parser.annotation;
 
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
@@ -6,5 +6,7 @@ import java.lang.annotation.Target;
 
 @Retention(RetentionPolicy.RUNTIME)
 @Target({java.lang.annotation.ElementType.FIELD, java.lang.annotation.ElementType.METHOD})
-public @interface XmlText {
+public @interface XmlAttribute {
+    String name() default "";
 }
+

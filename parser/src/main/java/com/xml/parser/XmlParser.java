@@ -1,10 +1,10 @@
-package com.xml.paser;
+package com.xml.parser;
 
-import com.xml.paser.annotation.XmlAttribute;
-import com.xml.paser.annotation.XmlElement;
-import com.xml.paser.annotation.XmlElements;
-import com.xml.paser.annotation.XmlRootElement;
-import com.xml.paser.annotation.XmlText;
+import com.xml.parser.annotation.XmlAttribute;
+import com.xml.parser.annotation.XmlElement;
+import com.xml.parser.annotation.XmlElements;
+import com.xml.parser.annotation.XmlRootElement;
+import com.xml.parser.annotation.XmlText;
 
 import org.dom4j.Attribute;
 import org.dom4j.Document;
@@ -16,19 +16,19 @@ import java.lang.reflect.Field;
 import java.util.ArrayList;
 import java.util.List;
 
-public class XmlPaser {
-    private static final String TAG = "XmlPaser";
+public class XmlParser {
+    private static final String TAG = "XmlParser";
 
-    private static XmlPaser instance;
+    private static XmlParser instance;
 
-    private XmlPaser() {
+    private XmlParser() {
     }
 
-    public static XmlPaser getInstance() {
+    public static XmlParser getInstance() {
         if (instance == null) {
-            synchronized (XmlPaser.class) {
+            synchronized (XmlParser.class) {
                 if (instance == null) {
-                    instance = new XmlPaser();
+                    instance = new XmlParser();
                 }
             }
         }
