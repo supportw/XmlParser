@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Root name="config">
+    <category name="category 1">A</category>
+    <category name="category 2">B</category>
+    <category name="category 3">C</category>
+</Root>
